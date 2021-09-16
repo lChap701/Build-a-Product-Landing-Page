@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      FCC Responsive Web Design Projects - Build a Product Landing Page
+    </title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- Navbar and header -->
+      <header id="header">
+        <div class="logo">
+          <figure>
+            <img
+              id="header-img"
+              src="https://cdn.pixabay.com/photo/2017/07/25/11/59/logo-2537871_1280.png"
+              alt="Computers Inc. logo"
+            />
+            <figcaption>Computers Inc.</figcaption>
+          </figure>
+        </div>
+        <nav id="nav-bar">
+          <a href="#about" title="About" class="nav-link">About</a>
+
+          <a href="#pricing" title="Pricing" class="nav-link">Pricing</a>
+          <a href="#locations" title="Locations" class="nav-link">Locations</a>
+          <a href="#reviews" title="Reviews" class="nav-link">Reviews</a>
+        </nav>
+      </header>
+
+      <div id="content-wrapper">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h1>Recieve Updates</h1>
+          <div class="col">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
+          </div>
+          <input type="submit" id="submit" value="Sign Up" />
+        </form>
+
+        <main>
+          <!--- About -->
+          <section id="about">
+            <h1>About</h1>
+            <p>
+              We are a company dedicated to developing computers that make life
+              better.
+            </p>
+            <figure>
+              <!-- This video was taken from the  Linus Tech Tips Youtube channel-->
+              <iframe
+                width="560"
+                height="315"
+                id="video"
+                src="https://www.youtube.com/embed/jOWc25fLlEo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <figcaption>
+                <em>Most recent product</em>
+              </figcaption>
+            </figure>
+          </section>
+
+          <!-- Pricing section -->
+          <section id="pricing">
+            <h1>Pricing</h1>
+
+            <div class="grid">
+              <div class="col">
+                <h2>Regular Computer</h2>
+                <p>
+                  <strong> $999.99 </strong>
+                </p>
+                <p>Includes computers from a variety of brands</p>
+                <button>Select</button>
+              </div>
+
+              <div class="col">
+                <h2>Mainframe Computer</h2>
+                <p>
+                  <strong> $9,999.99 </strong>
+                </p>
+                <p>For your business needs</p>
+                <button>Select</button>
+              </div>
+
+              <div class="col">
+                <h2>Super Computer</h2>
+                <p>
+                  <strong> $999,999.99 </strong>
+                </p>
+                <p>The fastest computers in the world</p>
+                <button>Select</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Locations section -->
+          <section id="locations">
+            <h1>Locations</h1>
+
+            <div class="grid">
+              <dl class="col">
+                <dt>
+                  <strong>United States</strong>
+                </dt>
+                <dd>Orlando, FL</dd>
+                <dd>Washington, D.C.</dd>
+                <dd>Des Moines, IA</dd>
+                <dd>Chicago, IL</dd>
+                <dd>Hollywood, CA</dd>
+                <dd>New York City, NY</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Canada</strong>
+                </dt>
+                <dd>Ottawa, ON</dd>
+                <dd>Toronto, ON</dd>
+                <dd>Quebec City, QC</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>United Kingdom</strong>
+                </dt>
+                <dd>London</dd>
+                <dd>Manchester</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>China</strong>
+                </dt>
+                <dd>Hong Kong</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Japan</strong>
+                </dt>
+                <dd>Tokyo</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Russia</strong>
+                </dt>
+                <dd>Moscow</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>France</strong>
+                </dt>
+                <dd>Paris</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Germany</strong>
+                </dt>
+                <dd>Berlin</dd>
+              </dl>
+            </div>
+          </section>
+
+          <!-- Reviews section -->
+          <section id="reviews">
+            <h1>Reviews</h1>
+
+            <div class="grid">
+              <dl class="col">
+                <dt>
+                  <strong>New York Times</strong>
+                </dt>
+                <dd>Best Computer Company of 2020</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Times</strong>
+                </dt>
+                <dd>Fastest Growing Company of 2020</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Vice</strong>
+                </dt>
+                <dd>Fastest computers in the world</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Business Insider</strong>
+                </dt>
+                <dd>Best computers in the world</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>LinkedIn</strong>
+                </dt>
+                <dd>Best Company to work at</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Chicago Times</strong>
+                </dt>
+                <dd>Largest Start Up Companies</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Global Business Evaluator</strong>
+                </dt>
+                <dd>Top 10 Companies of 2020</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Customer Analysis</strong>
+                </dt>
+                <dd>Best Customer Service of 2020</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Wealth Tracker</strong>
+                </dt>
+                <dd>Wealthiest Businesses of 2020</dd>
+              </dl>
+
+              <dl class="col">
+                <dt>
+                  <strong>Hong Kong News</strong>
+                </dt>
+                <dd>Most popular computer business</dd>
+              </dl>
+            </div>
+          </section>
+        </main>
+
+        <footer>
+          <p>&copy; 2021 Computers Inc.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
