@@ -5,4 +5,3 @@ A project that I created for freeCodeCamp that displays a product landing page. 
 ## Resources
 
 [CodePen Version](https://codepen.io/lchap701/full/xxqPEyz)
-
